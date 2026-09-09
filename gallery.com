@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Gallery | Sandisile Mvandaba</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">Sandy<span>.</span></a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="family.html">Family</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <button id="themeToggle" class="theme-btn">🌙</button>
+
+    </div>
+</header>
+
+
+<main>
+
+    <section class="page-header">
+
+        <p class="eyebrow">MY MOMENTS</p>
+
+        <h1>Gallery</h1>
+
+        <p>
+            A collection of moments, interests and memories.
+        </p>
+
+    </section>
+
+
+    <section class="section">
+
+        <div class="gallery-intro">
+
+            <p>
+                Use the buttons below to explore my gallery.
+            </p>
+
+        </div>
+
+
+        <!-- JAVASCRIPT SLIDESHOW -->
+
+        <div class="slideshow">
+
+            <img id="slideImage"
+                 src="images/gallery1.jpg"
+                 alt="Gallery image">
+
+            <div class="slide-caption">
+                <h3 id="slideTitle">A moment to remember</h3>
+                <p id="slideDescription">
+                    One of my favourite moments.
+                </p>
+            </div>
+
+            <button id="previousBtn" class="slide-btn previous">
+                ❮
+            </button>
+
+            <button id="nextBtn" class="slide-btn next">
+                ❯
+            </button>
+
+        </div>
+
+
+        <!-- GALLERY GRID -->
+
+        <div class="gallery-grid">
+
+            <img src="images/gallery1.jpg" alt="Gallery image 1">
+            <img src="images/gallery2.jpg" alt="Gallery image 2">
+            <img src="images/gallery3.jpg" alt="Gallery image 3">
+            <img src="images/gallery4.jpg" alt="Gallery image 4">
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <div class="footer-content">
+        <div>
+            <a href="index.html" class="logo footer-logo">Sandy<span>.</span></a>
+            <p>Moments that tell a little more of my story.</p>
+        </div>
+    </div>
+
+    <div class="copyright">
+        © 2026 Sandisile Mvandaba.
+    </div>
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
