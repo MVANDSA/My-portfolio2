@@ -70,28 +70,29 @@ const nextBtn =
 const slides = [
 
     {
-        image: "images/IMG-20220609-WA0020.jpg",
+        image: "image/Gallery2.jpg",
         title: "A moment to remember",
         description: "One of my favourite moments."
     },
 
     {
-        image: "images/IMG_20240205_133214_171.jpg",
+        image: "image/Gallery3.jpg",
         title: "Good memories",
         description: "A moment that makes me smile."
     },
 
     {
-        image: "images/IMG-20230412-WA0029.jpg",
+        image: "image/Gallery4.jpg",
         title: "Life & learning",
         description: "Growing, learning and enjoying the journey."
     },
 
     {
-        image: "images/IMG2-20241209-WA0050.jpg",
+        image: "image/Gallery5.jpg",
         title: "My journey",
         description: "Another little piece of my story."
     }
+   
 
 ];
 
