@@ -93,7 +93,12 @@ const slides = [
         description: "Another little piece of my story."
     }
    
-
+    {
+        image: "image/Gallery6.jpg",
+        title: "My journey",
+        description: "Another little piece of my story."
+    }
+   
 ];
 
 
